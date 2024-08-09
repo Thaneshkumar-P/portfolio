@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'NavName';
+  src: url('/fonts/Lobster-Regular.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Heading';
+  src: url('/fonts/AlfaSlabOne-Regular.ttf') format('truetype');
+
+}
+
+@font-face {
+  font-family: 'Content';
+  src: url('/fonts/Poppins-Medium.ttf') format('truetype');
+}
+
+
+.nav-font {
+  font-family: 'NavName';
+}
+
+.heading-font {
+  font-family: 'Heading', sans-serif;
+}
+
+.content-font {
+  font-family: 'Content', sans-serif;
+}
+
+body {
+  font-family: 'Content', sans-serif;
+}
+
+
+
+
+@keyframes slide {
+  to {
+    transform: translateX(-1000px);
+  }
+}
+
+.animate-slide {
+  animation: slide 5000ms linear infinite;
+}
