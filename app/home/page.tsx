@@ -76,7 +76,7 @@ export default function Page() {
             <hr className='ms-2 md:mt-[80px] h-0.5 border-2 border-black mt-2.5 md:rotate-[270deg] w-full'></hr>
           </div>
           <div className='flex flex-col '>
-            <p className='text-center md:p-10 pb-10 pt-0 pl-0 md:mr-5 flex justify-center'>I am proficient in Java, JavaScript, and C, and I have extensive experience with libraries, frameworks, and tools such as React.js, Express.js, Ruby on Rails, Node.js, Redux, Git, and JSON Web Token (JWT). My database expertise includes MySQL and MongoDB.</p>
+            <p className='text-center md:p-10 md:pt-0 pb-10 pt-0 pl-0 md:mr-5 flex justify-center'>I am proficient in Java, JavaScript, and C, and I have extensive experience with libraries, frameworks, and tools such as React.js, Express.js, Ruby on Rails, Node.js, Redux, Git, and JSON Web Token (JWT). My database expertise includes MySQL and MongoDB.</p>
             <div className='flex flex-row md:gap-20 gap-10 flex-wrap justify-center'>
               {icons.map((icon) => 
                 <div className='flex justify-center flex-col items-center gap-2'>

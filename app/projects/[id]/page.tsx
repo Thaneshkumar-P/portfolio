@@ -36,7 +36,7 @@ export default function Page() {
           <div className={'p-5 bg-gray-200 rounded-md flex items-start flex-col w-full'} key={project.name}>
             <div className="bg-white flex flex-row justify-start mt-2 mb-2 p-4 rounded w-full gap-5">
               <h4 className='font-medium'>Deployment</h4>
-              <Link href={'#'} className="underline" >{project.dLink}</Link>
+              <Link href={project.dLink} className="underline" target="new" >{project.dLink}</Link>
             </div>
             <div className="bg-white flex flex-row justify-start mt-2 mb-2 p-4 rounded w-full gap-5">
               <h4 className='font-medium'>Status</h4>  
@@ -44,7 +44,7 @@ export default function Page() {
             </div>
             <div className="bg-white flex flex-row justify-start mt-2 mb-2 p-4 rounded w-full gap-5">
               <h4 className='font-medium'>Repository</h4>
-              <Link href={'#'} className="underline" >{project.git}</Link>
+              <Link href={project.git} className="underline" target="new">{project.git}</Link>
             </div>
             <div className="bg-white flex flex-row justify-start mt-2 mb-2 p-4 rounded w-full gap-5">
               <h4 className='font-medium'>Type</h4>

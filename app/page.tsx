@@ -7,12 +7,8 @@ import Image from 'next/image';
 import Navbar from './ui/navbar';
 import { useEffect } from 'react';
 import Home from '@/app/home/page'
+import { redirect } from 'next/navigation';
 
 export default function Page() {
-
-  return (
-    <>
-      <Home />
-    </>
-  );
+  redirect('/home')
 }

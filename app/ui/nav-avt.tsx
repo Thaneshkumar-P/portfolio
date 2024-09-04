@@ -15,10 +15,10 @@ import LinkedIn from '@/public/skill-images/linkedIn.svg'
 import Image from 'next/image';
 
 const links = [
-  { name: 'git', href: 'https://www.linkedin.com/in/thanesh-kumar-93aa54205', img: GitHub, width: 35 },
+  { name: 'git', href: 'https://github.com/Thaneshkumar-p', img: GitHub, width: 35 },
   {
     name: 'lIn',
-    href: 'https://github.com/Thaneshkumar-p',
+    href: 'https://www.linkedin.com/in/thanesh-kumar-93aa54205',
     img: LinkedIn,
     width: 40
   },
